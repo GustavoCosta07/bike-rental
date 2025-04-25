@@ -34,6 +34,7 @@ public static class DependencyInjection
         var region = awsConfig["Region"];
         var accessKey = awsConfig["AccessKey"];
         var secretKey = awsConfig["SecretKey"];
+        var serviceUrl = awsConfig["ServiceURL"];
 
         services.AddMassTransit(x =>
         {
@@ -43,19 +44,19 @@ public static class DependencyInjection
             {
                 cfg.Host("us-east-1", h =>
                 {
-                    h.AccessKey("test");
-                    h.SecretKey("test");
+                    h.AccessKey(accessKey);
+                    h.SecretKey(secretKey);
                     h.Config(new AmazonSQSConfig
                     {
-                        ServiceURL = "http://localhost:4566",
+                        ServiceURL = serviceUrl,
                         UseHttp = true,
-                        AuthenticationRegion = "us-east-1"
+                        AuthenticationRegion = region
                     });
                     h.Config(new AmazonSimpleNotificationServiceConfig
                     {
-                        ServiceURL = "http://localhost:4566",
+                        ServiceURL = serviceUrl,
                         UseHttp = true,
-                        AuthenticationRegion = "us-east-1"
+                        AuthenticationRegion = region
                     });
                 });
 

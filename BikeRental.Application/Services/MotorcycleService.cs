@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using BikeRental.Application.Mapping;
+﻿using BikeRental.Application.Mapping;
 using BikeRental.Application.Models;
 using BikeRental.Domain.Entities;
 using BikeRental.Domain.Events;

@@ -5,7 +5,7 @@
     "version": "v1"
   },
   "paths": {
-    "/api/DeliveryPersons": {
+    "/api/delivery-persons": {
       "post": {
         "tags": [
           "DeliveryPersons"
@@ -32,19 +32,19 @@
               "schema": {
                 "$ref": "#/components/schemas/DeliveryPersonCreateDto"
               },
-              "example": {"id":"e9ba47b7-8a6e-4ec9-9c5d-340eea9290c2","name":"João da Silva","tax_id":"12345678901231","birth_date":"1990-08-22T00:00:00","driver_license_number":"12345678901","driver_license_type":"AB","driver_license_image":"iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAFhQGAwJ2GfgAAAABJRU5ErkJggg=="}
+              "example": {"id":"2295dd55-28f0-4241-a5bb-a97e30480cb4","name":"João da Silva","tax_id":"12345678901231","birth_date":"1990-08-22T00:00:00","driver_license_number":"12345678901","driver_license_type":"AB","driver_license_image":"iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAFhQGAwJ2GfgAAAABJRU5ErkJggg=="}
             },
             "text/json; ver=1.0": {
               "schema": {
                 "$ref": "#/components/schemas/DeliveryPersonCreateDto"
               },
-              "example": {"id":"e9ba47b7-8a6e-4ec9-9c5d-340eea9290c2","name":"João da Silva","tax_id":"12345678901231","birth_date":"1990-08-22T00:00:00","driver_license_number":"12345678901","driver_license_type":"AB","driver_license_image":"iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAFhQGAwJ2GfgAAAABJRU5ErkJggg=="}
+              "example": {"id":"2295dd55-28f0-4241-a5bb-a97e30480cb4","name":"João da Silva","tax_id":"12345678901231","birth_date":"1990-08-22T00:00:00","driver_license_number":"12345678901","driver_license_type":"AB","driver_license_image":"iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAFhQGAwJ2GfgAAAABJRU5ErkJggg=="}
             },
             "application/*+json; ver=1.0": {
               "schema": {
                 "$ref": "#/components/schemas/DeliveryPersonCreateDto"
               },
-              "example": {"id":"e9ba47b7-8a6e-4ec9-9c5d-340eea9290c2","name":"João da Silva","tax_id":"12345678901231","birth_date":"1990-08-22T00:00:00","driver_license_number":"12345678901","driver_license_type":"AB","driver_license_image":"iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAFhQGAwJ2GfgAAAABJRU5ErkJggg=="}
+              "example": {"id":"2295dd55-28f0-4241-a5bb-a97e30480cb4","name":"João da Silva","tax_id":"12345678901231","birth_date":"1990-08-22T00:00:00","driver_license_number":"12345678901","driver_license_type":"AB","driver_license_image":"iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAFhQGAwJ2GfgAAAABJRU5ErkJggg=="}
             }
           }
         },
@@ -55,7 +55,7 @@
         }
       }
     },
-    "/api/DeliveryPersons/{id}": {
+    "/api/delivery-persons/{id}": {
       "get": {
         "tags": [
           "DeliveryPersons"
@@ -92,7 +92,7 @@
         }
       }
     },
-    "/api/DeliveryPersons/{id}/driver-license-image": {
+    "/api/delivery-persons/{id}/driver-license-image": {
       "post": {
         "tags": [
           "DeliveryPersons"
@@ -360,7 +360,7 @@
         }
       }
     },
-    "/api/Rentals": {
+    "/api/rentals-controller": {
       "post": {
         "tags": [
           "Rentals"
@@ -387,19 +387,19 @@
               "schema": {
                 "$ref": "#/components/schemas/RentalDto"
               },
-              "example": {"id":"5dd284d4-4d8f-4120-89b1-4a8079ec948b","daily_rate":30.00,"delivery_person_id":"123e4567-e89b-12d3-a456-426614174000","motorcycle_id":"a1b2c3d4-1234-5678-9012-abcdef123456","start_date":"2025-04-26T16:54:22.2918891Z","end_date":"2025-05-03T16:54:22.2918915Z","expected_end_date":"2025-05-03T16:54:22.2918916Z","return_date":null,"plan":7}
+              "example": {"id":"52c4ac9c-7708-40fa-84f1-3b79d7d41e10","daily_rate":30.00,"delivery_person_id":"123e4567-e89b-12d3-a456-426614174000","motorcycle_id":"a1b2c3d4-1234-5678-9012-abcdef123456","start_date":"2025-04-26T21:51:49.0677432Z","end_date":"2025-05-03T21:51:49.0677438Z","expected_end_date":"2025-05-03T21:51:49.0677438Z","return_date":null,"plan":7}
             },
             "text/json; ver=1.0": {
               "schema": {
                 "$ref": "#/components/schemas/RentalDto"
               },
-              "example": {"id":"5dd284d4-4d8f-4120-89b1-4a8079ec948b","daily_rate":30.00,"delivery_person_id":"123e4567-e89b-12d3-a456-426614174000","motorcycle_id":"a1b2c3d4-1234-5678-9012-abcdef123456","start_date":"2025-04-26T16:54:22.2918891Z","end_date":"2025-05-03T16:54:22.2918915Z","expected_end_date":"2025-05-03T16:54:22.2918916Z","return_date":null,"plan":7}
+              "example": {"id":"52c4ac9c-7708-40fa-84f1-3b79d7d41e10","daily_rate":30.00,"delivery_person_id":"123e4567-e89b-12d3-a456-426614174000","motorcycle_id":"a1b2c3d4-1234-5678-9012-abcdef123456","start_date":"2025-04-26T21:51:49.0677432Z","end_date":"2025-05-03T21:51:49.0677438Z","expected_end_date":"2025-05-03T21:51:49.0677438Z","return_date":null,"plan":7}
             },
             "application/*+json; ver=1.0": {
               "schema": {
                 "$ref": "#/components/schemas/RentalDto"
               },
-              "example": {"id":"5dd284d4-4d8f-4120-89b1-4a8079ec948b","daily_rate":30.00,"delivery_person_id":"123e4567-e89b-12d3-a456-426614174000","motorcycle_id":"a1b2c3d4-1234-5678-9012-abcdef123456","start_date":"2025-04-26T16:54:22.2918891Z","end_date":"2025-05-03T16:54:22.2918915Z","expected_end_date":"2025-05-03T16:54:22.2918916Z","return_date":null,"plan":7}
+              "example": {"id":"52c4ac9c-7708-40fa-84f1-3b79d7d41e10","daily_rate":30.00,"delivery_person_id":"123e4567-e89b-12d3-a456-426614174000","motorcycle_id":"a1b2c3d4-1234-5678-9012-abcdef123456","start_date":"2025-04-26T21:51:49.0677432Z","end_date":"2025-05-03T21:51:49.0677438Z","expected_end_date":"2025-05-03T21:51:49.0677438Z","return_date":null,"plan":7}
             }
           }
         },
@@ -410,7 +410,7 @@
         }
       }
     },
-    "/api/Rentals/{id}": {
+    "/api/rentals-controller/{id}": {
       "get": {
         "tags": [
           "Rentals"
@@ -447,7 +447,7 @@
         }
       }
     },
-    "/api/Rentals/{id}/return": {
+    "/api/rentals-controller/{id}/return": {
       "put": {
         "tags": [
           "Rentals"
@@ -483,19 +483,19 @@
               "schema": {
                 "$ref": "#/components/schemas/RentalReturnDto"
               },
-              "example": {"return_date":"2025-05-02T16:54:22.3350676Z"}
+              "example": {"return_date":"2025-05-02T21:51:49.0912952Z"}
             },
             "text/json; ver=1.0": {
               "schema": {
                 "$ref": "#/components/schemas/RentalReturnDto"
               },
-              "example": {"return_date":"2025-05-02T16:54:22.3350676Z"}
+              "example": {"return_date":"2025-05-02T21:51:49.0912952Z"}
             },
             "application/*+json; ver=1.0": {
               "schema": {
                 "$ref": "#/components/schemas/RentalReturnDto"
               },
-              "example": {"return_date":"2025-05-02T16:54:22.3350676Z"}
+              "example": {"return_date":"2025-05-02T21:51:49.0912952Z"}
             }
           }
         },

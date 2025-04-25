@@ -3603,3 +3603,265 @@ WHERE "Id" = @p0;
 SELECT o."Id", o."CreatedAt", o."DeliveryDate", o."IsCompleted", o."RentalId", o."UpdatedAt", o."Value"
 FROM "OrderDeliveries" AS o
 WHERE NOT (o."IsCompleted")
+2025-04-25 18:51:46.156 -03:00 [ERR] Failed executing DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-04-25 18:51:46.598 -03:00 [INF] Applying migration '20250425132924_InitialCreate'.
+2025-04-25 18:51:46.685 -03:00 [INF] Applying migration '20250425134015_FixDateTimeHandling'.
+2025-04-25 18:51:46.782 -03:00 [INF] Applying migration '20250425144713_FixDateTimeHandlingV2'.
+2025-04-25 18:51:46.790 -03:00 [INF] Applying migration '20250425162150_AddReturnDateToRental'.
+2025-04-25 18:51:47.471 -03:00 [INF] Configured endpoint MotorcycleNotification, Consumer: BikeRental.Infrastructure.Consumers.MotorcycleNotificationConsumer
+2025-04-25 18:51:47.621 -03:00 [INF] User profile is available. Using 'C:\Users\dtiDigital\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-25 18:51:47.776 -03:00 [INF] Delivery Processing Service is starting.
+2025-04-25 18:51:48.325 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT o."Id", o."CreatedAt", o."DeliveryDate", o."IsCompleted", o."RentalId", o."UpdatedAt", o."Value"
+FROM "OrderDeliveries" AS o
+WHERE NOT (o."IsCompleted")
+2025-04-25 18:51:48.562 -03:00 [INF] Now listening on: http://localhost:5178
+2025-04-25 18:51:49.115 -03:00 [INF] Bus started: "amazonsqs://us-east-1/"
+2025-04-25 18:51:49.151 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-25 18:51:49.152 -03:00 [INF] Hosting environment: Development
+2025-04-25 18:51:49.154 -03:00 [INF] Content root path: C:\Users\dtiDigital\projects\BikeRental\BikeRental.Api
+2025-04-25 18:51:49.523 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/swagger/index.html - null null
+2025-04-25 18:51:49.928 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/swagger/index.html - 200 null text/html;charset=utf-8 408.6857ms
+2025-04-25 18:51:49.949 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-25 18:51:49.973 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 24.2428ms
+2025-04-25 18:51:50.058 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/_vs/browserLink - null null
+2025-04-25 18:51:50.159 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/_vs/browserLink - 200 null text/javascript; charset=UTF-8 100.6322ms
+2025-04-25 18:51:50.248 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/swagger/v1/swagger.json - null null
+2025-04-25 18:51:50.299 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 50.0837ms
+2025-04-25 18:55:53.063 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/api/motorcycles - null null
+2025-04-25 18:55:53.106 -03:00 [WRN] Failed to determine the https port for redirect.
+2025-04-25 18:55:53.296 -03:00 [INF] Executing endpoint 'BikeRental.Api.Controllers.MotorcyclesController.GetAll (BikeRental.Api)'
+2025-04-25 18:55:53.332 -03:00 [INF] Route matched with {action = "GetAll", controller = "Motorcycles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String) on controller BikeRental.Api.Controllers.MotorcyclesController (BikeRental.Api).
+2025-04-25 18:55:53.510 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT m."Id", m."CreatedAt", m."LicensePlate", m."Model", m."UpdatedAt", m."Year"
+FROM "Motorcycles" AS m
+2025-04-25 18:55:53.669 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[BikeRental.Domain.Entities.Motorcycle, BikeRental.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BikeRental.Application.Models.MotorcycleDto, BikeRental.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-25 18:55:53.693 -03:00 [INF] Executed action BikeRental.Api.Controllers.MotorcyclesController.GetAll (BikeRental.Api) in 351.6142ms
+2025-04-25 18:55:53.697 -03:00 [INF] Executed endpoint 'BikeRental.Api.Controllers.MotorcyclesController.GetAll (BikeRental.Api)'
+2025-04-25 18:55:53.711 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/api/motorcycles - 200 null application/json; charset=utf-8; ver=1.0 647.4615ms
+2025-04-25 18:56:09.875 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5178/api/motorcycles - application/json; ver=1.0 74
+2025-04-25 18:56:09.888 -03:00 [INF] Executing endpoint 'BikeRental.Api.Controllers.MotorcyclesController.Create (BikeRental.Api)'
+2025-04-25 18:56:09.896 -03:00 [INF] Route matched with {action = "Create", controller = "Motorcycles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(BikeRental.Application.Models.MotorcycleCreateDto) on controller BikeRental.Api.Controllers.MotorcyclesController (BikeRental.Api).
+2025-04-25 18:56:10.041 -03:00 [INF] Executed DbCommand (12ms) [Parameters=[@__licensePlate_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Motorcycles" AS m
+    WHERE m."LicensePlate" = @__licensePlate_0)
+2025-04-25 18:56:10.167 -03:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?', @p3='?', @p4='?' (DbType = DateTime2), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Motorcycles" ("Id", "CreatedAt", "LicensePlate", "Model", "UpdatedAt", "Year")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2025-04-25 18:56:10.397 -03:00 [INF] Executing CreatedAtActionResult, writing value of type 'BikeRental.Application.Models.MotorcycleDto'.
+2025-04-25 18:56:10.433 -03:00 [INF] Executed action BikeRental.Api.Controllers.MotorcyclesController.Create (BikeRental.Api) in 532.2938ms
+2025-04-25 18:56:10.436 -03:00 [INF] Executed endpoint 'BikeRental.Api.Controllers.MotorcyclesController.Create (BikeRental.Api)'
+2025-04-25 18:56:10.439 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5178/api/motorcycles - 201 null application/json; charset=utf-8; ver=1.0 564.4536ms
+2025-04-25 18:56:10.578 -03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Boolean), @p3='?', @p4='?' (DbType = DateTime2), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Notifications" ("Id", "CreatedAt", "IsRead", "Message", "NotificationDate", "UpdatedAt")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2025-04-25 18:56:48.394 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT o."Id", o."CreatedAt", o."DeliveryDate", o."IsCompleted", o."RentalId", o."UpdatedAt", o."Value"
+FROM "OrderDeliveries" AS o
+WHERE NOT (o."IsCompleted")
+2025-04-25 18:57:04.666 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/api/motorcycles - null null
+2025-04-25 18:57:04.678 -03:00 [INF] Executing endpoint 'BikeRental.Api.Controllers.MotorcyclesController.GetAll (BikeRental.Api)'
+2025-04-25 18:57:04.681 -03:00 [INF] Route matched with {action = "GetAll", controller = "Motorcycles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String) on controller BikeRental.Api.Controllers.MotorcyclesController (BikeRental.Api).
+2025-04-25 18:57:04.698 -03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT m."Id", m."CreatedAt", m."LicensePlate", m."Model", m."UpdatedAt", m."Year"
+FROM "Motorcycles" AS m
+2025-04-25 18:57:04.706 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[BikeRental.Domain.Entities.Motorcycle, BikeRental.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BikeRental.Application.Models.MotorcycleDto, BikeRental.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-25 18:57:04.710 -03:00 [INF] Executed action BikeRental.Api.Controllers.MotorcyclesController.GetAll (BikeRental.Api) in 24.8484ms
+2025-04-25 18:57:04.714 -03:00 [INF] Executed endpoint 'BikeRental.Api.Controllers.MotorcyclesController.GetAll (BikeRental.Api)'
+2025-04-25 18:57:04.718 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/api/motorcycles - 200 null application/json; charset=utf-8; ver=1.0 51.7677ms
+2025-04-25 18:57:18.443 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/api/motorcycles/a1b2c3d4-1234-5678-9012-abcdef123456 - null null
+2025-04-25 18:57:18.449 -03:00 [INF] Executing endpoint 'BikeRental.Api.Controllers.MotorcyclesController.GetById (BikeRental.Api)'
+2025-04-25 18:57:18.458 -03:00 [INF] Route matched with {action = "GetById", controller = "Motorcycles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.Guid) on controller BikeRental.Api.Controllers.MotorcyclesController (BikeRental.Api).
+2025-04-25 18:57:18.541 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT m."Id", m."CreatedAt", m."LicensePlate", m."Model", m."UpdatedAt", m."Year"
+FROM "Motorcycles" AS m
+WHERE m."Id" = @__p_0
+LIMIT 1
+2025-04-25 18:57:18.548 -03:00 [INF] Executing OkObjectResult, writing value of type 'BikeRental.Application.Models.MotorcycleDto'.
+2025-04-25 18:57:18.551 -03:00 [INF] Executed action BikeRental.Api.Controllers.MotorcyclesController.GetById (BikeRental.Api) in 88.3886ms
+2025-04-25 18:57:18.552 -03:00 [INF] Executed endpoint 'BikeRental.Api.Controllers.MotorcyclesController.GetById (BikeRental.Api)'
+2025-04-25 18:57:18.555 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/api/motorcycles/a1b2c3d4-1234-5678-9012-abcdef123456 - 200 null application/json; charset=utf-8; ver=1.0 111.9867ms
+2025-04-25 18:58:00.452 -03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5178/api/motorcycles/a1b2c3d4-1234-5678-9012-abcdef123456 - application/json; ver=1.0 31
+2025-04-25 18:58:00.459 -03:00 [INF] Executing endpoint 'BikeRental.Api.Controllers.MotorcyclesController.Update (BikeRental.Api)'
+2025-04-25 18:58:00.466 -03:00 [INF] Route matched with {action = "Update", controller = "Motorcycles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(System.Guid, BikeRental.Application.Models.MotorcycleUpdateDto) on controller BikeRental.Api.Controllers.MotorcyclesController (BikeRental.Api).
+2025-04-25 18:58:00.482 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT m."Id", m."CreatedAt", m."LicensePlate", m."Model", m."UpdatedAt", m."Year"
+FROM "Motorcycles" AS m
+WHERE m."Id" = @__p_0
+LIMIT 1
+2025-04-25 18:58:00.504 -03:00 [INF] Executed DbCommand (5ms) [Parameters=[@p5='?' (DbType = Guid), @p0='?' (DbType = DateTime2), @p1='?', @p2='?', @p3='?' (DbType = DateTime2), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Motorcycles" SET "CreatedAt" = @p0, "LicensePlate" = @p1, "Model" = @p2, "UpdatedAt" = @p3, "Year" = @p4
+WHERE "Id" = @p5;
+2025-04-25 18:58:00.509 -03:00 [INF] Executing OkObjectResult, writing value of type 'BikeRental.Application.Models.MotorcycleDto'.
+2025-04-25 18:58:00.512 -03:00 [INF] Executed action BikeRental.Api.Controllers.MotorcyclesController.Update (BikeRental.Api) in 42.2814ms
+2025-04-25 18:58:00.514 -03:00 [INF] Executed endpoint 'BikeRental.Api.Controllers.MotorcyclesController.Update (BikeRental.Api)'
+2025-04-25 18:58:00.516 -03:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5178/api/motorcycles/a1b2c3d4-1234-5678-9012-abcdef123456 - 200 null application/json; charset=utf-8; ver=1.0 63.405ms
+2025-04-25 18:58:07.783 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/api/motorcycles - null null
+2025-04-25 18:58:07.790 -03:00 [INF] Executing endpoint 'BikeRental.Api.Controllers.MotorcyclesController.GetAll (BikeRental.Api)'
+2025-04-25 18:58:07.792 -03:00 [INF] Route matched with {action = "GetAll", controller = "Motorcycles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String) on controller BikeRental.Api.Controllers.MotorcyclesController (BikeRental.Api).
+2025-04-25 18:58:07.802 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT m."Id", m."CreatedAt", m."LicensePlate", m."Model", m."UpdatedAt", m."Year"
+FROM "Motorcycles" AS m
+2025-04-25 18:58:07.808 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[BikeRental.Domain.Entities.Motorcycle, BikeRental.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BikeRental.Application.Models.MotorcycleDto, BikeRental.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-25 18:58:07.811 -03:00 [INF] Executed action BikeRental.Api.Controllers.MotorcyclesController.GetAll (BikeRental.Api) in 14.3604ms
+2025-04-25 18:58:07.815 -03:00 [INF] Executed endpoint 'BikeRental.Api.Controllers.MotorcyclesController.GetAll (BikeRental.Api)'
+2025-04-25 18:58:07.818 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/api/motorcycles - 200 null application/json; charset=utf-8; ver=1.0 34.0324ms
+2025-04-25 18:58:29.730 -03:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5178/api/motorcycles/a1b2c3d4-1234-5678-9012-abcdef123456 - null null
+2025-04-25 18:58:29.744 -03:00 [INF] Executing endpoint 'BikeRental.Api.Controllers.MotorcyclesController.Delete (BikeRental.Api)'
+2025-04-25 18:58:29.752 -03:00 [INF] Route matched with {action = "Delete", controller = "Motorcycles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Guid) on controller BikeRental.Api.Controllers.MotorcyclesController (BikeRental.Api).
+2025-04-25 18:58:29.765 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT m."Id", m."CreatedAt", m."LicensePlate", m."Model", m."UpdatedAt", m."Year"
+FROM "Motorcycles" AS m
+WHERE m."Id" = @__p_0
+LIMIT 1
+2025-04-25 18:58:29.788 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Motorcycles"
+WHERE "Id" = @p0;
+2025-04-25 18:58:29.800 -03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-04-25 18:58:29.802 -03:00 [INF] Executed action BikeRental.Api.Controllers.MotorcyclesController.Delete (BikeRental.Api) in 45.2068ms
+2025-04-25 18:58:29.805 -03:00 [INF] Executed endpoint 'BikeRental.Api.Controllers.MotorcyclesController.Delete (BikeRental.Api)'
+2025-04-25 18:58:29.808 -03:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5178/api/motorcycles/a1b2c3d4-1234-5678-9012-abcdef123456 - 204 null null 77.965ms
+2025-04-25 18:58:34.637 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/api/motorcycles - null null
+2025-04-25 18:58:34.642 -03:00 [INF] Executing endpoint 'BikeRental.Api.Controllers.MotorcyclesController.GetAll (BikeRental.Api)'
+2025-04-25 18:58:34.644 -03:00 [INF] Route matched with {action = "GetAll", controller = "Motorcycles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String) on controller BikeRental.Api.Controllers.MotorcyclesController (BikeRental.Api).
+2025-04-25 18:58:34.656 -03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT m."Id", m."CreatedAt", m."LicensePlate", m."Model", m."UpdatedAt", m."Year"
+FROM "Motorcycles" AS m
+2025-04-25 18:58:34.660 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[BikeRental.Domain.Entities.Motorcycle, BikeRental.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BikeRental.Application.Models.MotorcycleDto, BikeRental.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-25 18:58:34.664 -03:00 [INF] Executed action BikeRental.Api.Controllers.MotorcyclesController.GetAll (BikeRental.Api) in 16.7745ms
+2025-04-25 18:58:34.667 -03:00 [INF] Executed endpoint 'BikeRental.Api.Controllers.MotorcyclesController.GetAll (BikeRental.Api)'
+2025-04-25 18:58:34.669 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/api/motorcycles - 200 null application/json; charset=utf-8; ver=1.0 32.1476ms
+2025-04-25 18:58:55.092 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5178/api/delivery-persons - application/json; ver=1.0 346
+2025-04-25 18:58:55.098 -03:00 [INF] Executing endpoint 'BikeRental.Api.Controllers.DeliveryPersonsController.Create (BikeRental.Api)'
+2025-04-25 18:58:55.107 -03:00 [INF] Route matched with {action = "Create", controller = "DeliveryPersons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(BikeRental.Application.Models.DeliveryPersonCreateDto) on controller BikeRental.Api.Controllers.DeliveryPersonsController (BikeRental.Api).
+2025-04-25 18:58:55.170 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__cnpj_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "DeliveryPersons" AS d
+    WHERE d."CNPJ" = @__cnpj_0)
+2025-04-25 18:58:55.184 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__driverLicenseNumber_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "DeliveryPersons" AS d
+    WHERE d."DriverLicenseNumber" = @__driverLicenseNumber_0)
+2025-04-25 18:58:55.265 -03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?', @p3='?' (DbType = DateTime2), @p4='?', @p5='?', @p6='?', @p7='?', @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "DeliveryPersons" ("Id", "BirthDate", "CNPJ", "CreatedAt", "DriverLicenseImageUrl", "DriverLicenseNumber", "DriverLicenseType", "Name", "UpdatedAt")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-04-25 18:58:55.273 -03:00 [INF] Executing CreatedAtActionResult, writing value of type 'BikeRental.Application.Models.DeliveryPersonDto'.
+2025-04-25 18:58:55.280 -03:00 [INF] Executed action BikeRental.Api.Controllers.DeliveryPersonsController.Create (BikeRental.Api) in 170.1388ms
+2025-04-25 18:58:55.283 -03:00 [INF] Executed endpoint 'BikeRental.Api.Controllers.DeliveryPersonsController.Create (BikeRental.Api)'
+2025-04-25 18:58:55.285 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5178/api/delivery-persons - 201 null application/json; charset=utf-8; ver=1.0 192.6936ms
+2025-04-25 18:59:21.605 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/api/delivery-persons/adfec483-12aa-4915-bec7-1e33d1178311 - null null
+2025-04-25 18:59:21.623 -03:00 [INF] Executing endpoint 'BikeRental.Api.Controllers.DeliveryPersonsController.GetById (BikeRental.Api)'
+2025-04-25 18:59:21.631 -03:00 [INF] Route matched with {action = "GetById", controller = "DeliveryPersons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.Guid) on controller BikeRental.Api.Controllers.DeliveryPersonsController (BikeRental.Api).
+2025-04-25 18:59:21.667 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT d."Id", d."BirthDate", d."CNPJ", d."CreatedAt", d."DriverLicenseImageUrl", d."DriverLicenseNumber", d."DriverLicenseType", d."Name", d."UpdatedAt"
+FROM "DeliveryPersons" AS d
+WHERE d."Id" = @__p_0
+LIMIT 1
+2025-04-25 18:59:21.676 -03:00 [INF] Executing OkObjectResult, writing value of type 'BikeRental.Application.Models.DeliveryPersonDto'.
+2025-04-25 18:59:21.678 -03:00 [INF] Executed action BikeRental.Api.Controllers.DeliveryPersonsController.GetById (BikeRental.Api) in 42.8082ms
+2025-04-25 18:59:21.682 -03:00 [INF] Executed endpoint 'BikeRental.Api.Controllers.DeliveryPersonsController.GetById (BikeRental.Api)'
+2025-04-25 18:59:21.685 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/api/delivery-persons/adfec483-12aa-4915-bec7-1e33d1178311 - 200 null application/json; charset=utf-8; ver=1.0 79.6113ms
+2025-04-25 19:00:04.622 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5178/api/delivery-persons/adfec483-12aa-4915-bec7-1e33d1178311/driver-license-image - application/json; ver=1.0 128
+2025-04-25 19:00:04.628 -03:00 [INF] Executing endpoint 'BikeRental.Api.Controllers.DeliveryPersonsController.UpdateDriverLicenseImage (BikeRental.Api)'
+2025-04-25 19:00:04.638 -03:00 [INF] Route matched with {action = "UpdateDriverLicenseImage", controller = "DeliveryPersons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateDriverLicenseImage(System.Guid, BikeRental.Application.Models.DriverLicenseImageDto) on controller BikeRental.Api.Controllers.DeliveryPersonsController (BikeRental.Api).
+2025-04-25 19:00:04.660 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT d."Id", d."BirthDate", d."CNPJ", d."CreatedAt", d."DriverLicenseImageUrl", d."DriverLicenseNumber", d."DriverLicenseType", d."Name", d."UpdatedAt"
+FROM "DeliveryPersons" AS d
+WHERE d."Id" = @__p_0
+LIMIT 1
+2025-04-25 19:00:04.678 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p8='?' (DbType = Guid), @p0='?' (DbType = DateTime2), @p1='?', @p2='?' (DbType = DateTime2), @p3='?', @p4='?', @p5='?', @p6='?', @p7='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "DeliveryPersons" SET "BirthDate" = @p0, "CNPJ" = @p1, "CreatedAt" = @p2, "DriverLicenseImageUrl" = @p3, "DriverLicenseNumber" = @p4, "DriverLicenseType" = @p5, "Name" = @p6, "UpdatedAt" = @p7
+WHERE "Id" = @p8;
+2025-04-25 19:00:04.683 -03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-04-25 19:00:04.685 -03:00 [INF] Executed action BikeRental.Api.Controllers.DeliveryPersonsController.UpdateDriverLicenseImage (BikeRental.Api) in 41.5217ms
+2025-04-25 19:00:04.687 -03:00 [INF] Executed endpoint 'BikeRental.Api.Controllers.DeliveryPersonsController.UpdateDriverLicenseImage (BikeRental.Api)'
+2025-04-25 19:00:04.689 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5178/api/delivery-persons/adfec483-12aa-4915-bec7-1e33d1178311/driver-license-image - 200 0 null 66.6297ms
+2025-04-25 19:00:13.230 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/api/delivery-persons/adfec483-12aa-4915-bec7-1e33d1178311 - null null
+2025-04-25 19:00:13.245 -03:00 [INF] Executing endpoint 'BikeRental.Api.Controllers.DeliveryPersonsController.GetById (BikeRental.Api)'
+2025-04-25 19:00:13.249 -03:00 [INF] Route matched with {action = "GetById", controller = "DeliveryPersons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.Guid) on controller BikeRental.Api.Controllers.DeliveryPersonsController (BikeRental.Api).
+2025-04-25 19:00:13.261 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT d."Id", d."BirthDate", d."CNPJ", d."CreatedAt", d."DriverLicenseImageUrl", d."DriverLicenseNumber", d."DriverLicenseType", d."Name", d."UpdatedAt"
+FROM "DeliveryPersons" AS d
+WHERE d."Id" = @__p_0
+LIMIT 1
+2025-04-25 19:00:13.268 -03:00 [INF] Executing OkObjectResult, writing value of type 'BikeRental.Application.Models.DeliveryPersonDto'.
+2025-04-25 19:00:13.272 -03:00 [INF] Executed action BikeRental.Api.Controllers.DeliveryPersonsController.GetById (BikeRental.Api) in 16.9101ms
+2025-04-25 19:00:13.275 -03:00 [INF] Executed endpoint 'BikeRental.Api.Controllers.DeliveryPersonsController.GetById (BikeRental.Api)'
+2025-04-25 19:00:13.277 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/api/delivery-persons/adfec483-12aa-4915-bec7-1e33d1178311 - 200 null application/json; charset=utf-8; ver=1.0 47.0943ms
+2025-04-25 19:01:30.092 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5178/api/rentals-controller - application/json; ver=1.0 378
+2025-04-25 19:01:30.099 -03:00 [INF] Executing endpoint 'BikeRental.Api.Controllers.RentalsController.Create (BikeRental.Api)'
+2025-04-25 19:01:30.105 -03:00 [INF] Route matched with {action = "Create", controller = "Rentals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(BikeRental.Application.Models.RentalDto) on controller BikeRental.Api.Controllers.RentalsController (BikeRental.Api).
+2025-04-25 19:01:30.153 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT d."Id", d."BirthDate", d."CNPJ", d."CreatedAt", d."DriverLicenseImageUrl", d."DriverLicenseNumber", d."DriverLicenseType", d."Name", d."UpdatedAt"
+FROM "DeliveryPersons" AS d
+WHERE d."Id" = @__p_0
+LIMIT 1
+2025-04-25 19:01:30.161 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT m."Id", m."CreatedAt", m."LicensePlate", m."Model", m."UpdatedAt", m."Year"
+FROM "Motorcycles" AS m
+WHERE m."Id" = @__p_0
+LIMIT 1
+2025-04-25 19:01:30.176 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__motorcycleId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Rentals" AS r
+    WHERE r."MotorcycleId" = @__motorcycleId_0 AND r."IsActive")
+2025-04-25 19:01:30.284 -03:00 [INF] Executed DbCommand (9ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?' (DbType = DateTime2), @p3='?' (DbType = Guid), @p2='?' (DbType = DateTime2), @p4='?' (DbType = Guid), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Decimal), @p7='?' (DbType = Guid), @p8='?' (DbType = DateTime2), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Boolean), @p11='?' (DbType = Guid), @p12='?' (DbType = Int32), @p13='?' (DbType = DateTime2), @p14='?' (DbType = DateTime2), @p15='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "DeliveryPersons" SET "UpdatedAt" = @p0
+WHERE "Id" = @p1;
+UPDATE "Motorcycles" SET "UpdatedAt" = @p2
+WHERE "Id" = @p3;
+INSERT INTO "Rentals" ("Id", "CreatedAt", "DailyCost", "DeliveryPersonId", "EndDate", "ExpectedEndDate", "IsActive", "MotorcycleId", "Plan", "ReturnDate", "StartDate", "UpdatedAt")
+VALUES (@p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+2025-04-25 19:01:30.299 -03:00 [INF] Executing CreatedAtActionResult, writing value of type 'BikeRental.Application.Models.RentalDto'.
+2025-04-25 19:01:30.302 -03:00 [INF] Executed action BikeRental.Api.Controllers.RentalsController.Create (BikeRental.Api) in 193.735ms
+2025-04-25 19:01:30.304 -03:00 [INF] Executed endpoint 'BikeRental.Api.Controllers.RentalsController.Create (BikeRental.Api)'
+2025-04-25 19:01:30.306 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5178/api/rentals-controller - 201 null application/json; charset=utf-8; ver=1.0 213.7057ms
+2025-04-25 19:01:48.418 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT o."Id", o."CreatedAt", o."DeliveryDate", o."IsCompleted", o."RentalId", o."UpdatedAt", o."Value"
+FROM "OrderDeliveries" AS o
+WHERE NOT (o."IsCompleted")
+2025-04-25 19:01:54.637 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5178/api/rentals-controller/2176506f-61fc-4851-80c0-c244a0cf2a9b - null null
+2025-04-25 19:01:54.646 -03:00 [INF] Executing endpoint 'BikeRental.Api.Controllers.RentalsController.GetById (BikeRental.Api)'
+2025-04-25 19:01:54.653 -03:00 [INF] Route matched with {action = "GetById", controller = "Rentals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.Guid) on controller BikeRental.Api.Controllers.RentalsController (BikeRental.Api).
+2025-04-25 19:01:54.763 -03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT r."Id", r."CreatedAt", r."DailyCost", r."DeliveryPersonId", r."EndDate", r."ExpectedEndDate", r."IsActive", r."MotorcycleId", r."Plan", r."ReturnDate", r."StartDate", r."UpdatedAt", m."Id", m."CreatedAt", m."LicensePlate", m."Model", m."UpdatedAt", m."Year", d."Id", d."BirthDate", d."CNPJ", d."CreatedAt", d."DriverLicenseImageUrl", d."DriverLicenseNumber", d."DriverLicenseType", d."Name", d."UpdatedAt"
+FROM "Rentals" AS r
+INNER JOIN "Motorcycles" AS m ON r."MotorcycleId" = m."Id"
+INNER JOIN "DeliveryPersons" AS d ON r."DeliveryPersonId" = d."Id"
+WHERE r."Id" = @__id_0
+LIMIT 1
+2025-04-25 19:01:54.779 -03:00 [INF] Executing OkObjectResult, writing value of type 'BikeRental.Application.Models.RentalDto'.
+2025-04-25 19:01:54.782 -03:00 [INF] Executed action BikeRental.Api.Controllers.RentalsController.GetById (BikeRental.Api) in 125.3923ms
+2025-04-25 19:01:54.785 -03:00 [INF] Executed endpoint 'BikeRental.Api.Controllers.RentalsController.GetById (BikeRental.Api)'
+2025-04-25 19:01:54.787 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5178/api/rentals-controller/2176506f-61fc-4851-80c0-c244a0cf2a9b - 200 null application/json; charset=utf-8; ver=1.0 150.1979ms
+2025-04-25 19:02:09.614 -03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5178/api/rentals-controller/2176506f-61fc-4851-80c0-c244a0cf2a9b/return - application/json; ver=1.0 51
+2025-04-25 19:02:09.621 -03:00 [INF] Executing endpoint 'BikeRental.Api.Controllers.RentalsController.Return (BikeRental.Api)'
+2025-04-25 19:02:09.631 -03:00 [INF] Route matched with {action = "Return", controller = "Rentals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Return(System.Guid, BikeRental.Application.Models.RentalReturnDto) on controller BikeRental.Api.Controllers.RentalsController (BikeRental.Api).
+2025-04-25 19:02:09.649 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT r."Id", r."CreatedAt", r."DailyCost", r."DeliveryPersonId", r."EndDate", r."ExpectedEndDate", r."IsActive", r."MotorcycleId", r."Plan", r."ReturnDate", r."StartDate", r."UpdatedAt", m."Id", m."CreatedAt", m."LicensePlate", m."Model", m."UpdatedAt", m."Year", d."Id", d."BirthDate", d."CNPJ", d."CreatedAt", d."DriverLicenseImageUrl", d."DriverLicenseNumber", d."DriverLicenseType", d."Name", d."UpdatedAt"
+FROM "Rentals" AS r
+INNER JOIN "Motorcycles" AS m ON r."MotorcycleId" = m."Id"
+INNER JOIN "DeliveryPersons" AS d ON r."DeliveryPersonId" = d."Id"
+WHERE r."Id" = @__id_0
+LIMIT 1
+2025-04-25 19:02:09.659 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?' (DbType = DateTime2), @p3='?' (DbType = Guid), @p2='?' (DbType = DateTime2), @p15='?' (DbType = Guid), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Decimal), @p6='?' (DbType = Guid), @p7='?' (DbType = DateTime2), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Boolean), @p10='?' (DbType = Guid), @p11='?' (DbType = Int32), @p12='?' (DbType = DateTime2), @p13='?' (DbType = DateTime2), @p14='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "DeliveryPersons" SET "UpdatedAt" = @p0
+WHERE "Id" = @p1;
+UPDATE "Motorcycles" SET "UpdatedAt" = @p2
+WHERE "Id" = @p3;
+UPDATE "Rentals" SET "CreatedAt" = @p4, "DailyCost" = @p5, "DeliveryPersonId" = @p6, "EndDate" = @p7, "ExpectedEndDate" = @p8, "IsActive" = @p9, "MotorcycleId" = @p10, "Plan" = @p11, "ReturnDate" = @p12, "StartDate" = @p13, "UpdatedAt" = @p14
+WHERE "Id" = @p15;
+2025-04-25 19:02:09.670 -03:00 [INF] Executing OkObjectResult, writing value of type 'BikeRental.Application.Models.RentalDto'.
+2025-04-25 19:02:09.673 -03:00 [INF] Executed action BikeRental.Api.Controllers.RentalsController.Return (BikeRental.Api) in 38.7046ms
+2025-04-25 19:02:09.675 -03:00 [INF] Executed endpoint 'BikeRental.Api.Controllers.RentalsController.Return (BikeRental.Api)'
+2025-04-25 19:02:09.677 -03:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5178/api/rentals-controller/2176506f-61fc-4851-80c0-c244a0cf2a9b/return - 200 null application/json; charset=utf-8; ver=1.0 63.0141ms
+2025-04-25 19:03:08.278 -03:00 [INF] Application is shutting down...
+2025-04-25 19:03:09.536 -03:00 [INF] Bus stopped: "amazonsqs://us-east-1/"

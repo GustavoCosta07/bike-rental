@@ -2,6 +2,7 @@ using System.Reflection;
 using AspNetCoreRateLimit;
 using BikeRental.Api;
 using BikeRental.Api.HealthChecks;
+using BikeRental.Api.Middlewares;
 using BikeRental.Api.SwaggerExamples;
 using BikeRental.Application;
 using BikeRental.Infrastructure;
@@ -76,6 +77,8 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseIpRateLimiting();
+app.UseMiddleware<ExceptionMiddleware>();
+
 
 app.MapControllers();
 app.MapHealthChecks("/health");

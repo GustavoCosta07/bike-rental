@@ -2,7 +2,7 @@
   {
     "ContainingType": "BikeRental.Api.Controllers.DeliveryPersonsController",
     "Method": "Create",
-    "RelativePath": "api/DeliveryPersons",
+    "RelativePath": "api/delivery-persons",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -28,7 +28,7 @@
   {
     "ContainingType": "BikeRental.Api.Controllers.DeliveryPersonsController",
     "Method": "GetById",
-    "RelativePath": "api/DeliveryPersons/{id}",
+    "RelativePath": "api/delivery-persons/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -54,7 +54,7 @@
   {
     "ContainingType": "BikeRental.Api.Controllers.DeliveryPersonsController",
     "Method": "UpdateDriverLicenseImage",
-    "RelativePath": "api/DeliveryPersons/{id}/driver-license-image",
+    "RelativePath": "api/delivery-persons/{id}/driver-license-image",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -220,7 +220,7 @@
   {
     "ContainingType": "BikeRental.Api.Controllers.RentalsController",
     "Method": "Create",
-    "RelativePath": "api/Rentals",
+    "RelativePath": "api/rentals-controller",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -246,7 +246,7 @@
   {
     "ContainingType": "BikeRental.Api.Controllers.RentalsController",
     "Method": "GetById",
-    "RelativePath": "api/Rentals/{id}",
+    "RelativePath": "api/rentals-controller/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -272,7 +272,7 @@
   {
     "ContainingType": "BikeRental.Api.Controllers.RentalsController",
     "Method": "Return",
-    "RelativePath": "api/Rentals/{id}/return",
+    "RelativePath": "api/rentals-controller/{id}/return",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,

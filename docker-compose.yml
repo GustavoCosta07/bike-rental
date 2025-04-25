@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   db:
     image: postgres:17-alpine
@@ -39,13 +37,45 @@ services:
       - DOCKER_HOST=unix:///var/run/docker.sock
       - LEGACY_SQS_PROVIDER=0
       - PERSIST_ALL=false
-
     ports:
       - "4566:4566"
       - "4510-4559:4510-4559"
     volumes:
       - "${TEMPDIR:-/tmp/localstack}:/var/lib/localstack"
       - "/var/run/docker.sock:/var/run/docker.sock"
+
+  api:
+    image: ${DOCKER_REGISTRY-}bikerentalapi
+    build:
+      context: .
+      dockerfile: BikeRental.Api/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=db;Port=5432;Database=bikerental;Username=bikeuser;Password=bikepassword;Pooling=true;
+      - AWS__ServiceURL=http://sns:4566
+      - MassTransit__AmazonSqs__ServiceUrl=http://sns:4566
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+      - sns
+    volumes:
+      - ./BikeRental.Api/Storage:/app/Storage
+
+  tests:
+    image: ${DOCKER_REGISTRY-}bikerentaltests
+    build:
+      context: .
+      dockerfile: BikeRental.Tests/Dockerfile
+    environment:
+      - ConnectionStrings__DefaultConnection=Host=db;Port=5432;Database=bikerental;Username=bikeuser;Password=bikepassword;Pooling=true;
+      - AWS__ServiceURL=http://sns:4566
+      - MassTransit__AmazonSqs__ServiceUrl=http://sns:4566
+    depends_on:
+      db:
+        condition: service_healthy
+      sns:
+        condition: service_started
 
 volumes:
   postgres_data:
