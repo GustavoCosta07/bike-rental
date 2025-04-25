@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: bikeuser
+      POSTGRES_PASSWORD: bikepassword
+      POSTGRES_DB: bikerental
+      TZ: America/Sao_Paulo
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bikeuser -d bikerental"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    command:
+      - "postgres"
+      - "-c"
+      - "log_statement=all"
+      - "-c"
+      - "timezone=America/Sao_Paulo"
+
+  sns:
+    image: localstack/localstack:3.4.0
+    environment:
+      - SERVICES=sqs,sns
+      - AWS_DEFAULT_REGION=us-east-1
+      - AWS_ACCESS_KEY_ID=test
+      - AWS_SECRET_ACCESS_KEY=test
+      - EDGE_PORT=4566
+      - LOCALSTACK_HOST=0.0.0.0
+      - DEBUG=1
+      - LS_LOG=debug
+      - PERSISTENCE=1
+      - DOCKER_HOST=unix:///var/run/docker.sock
+      - LEGACY_SQS_PROVIDER=0
+      - PERSIST_ALL=false
+
+    ports:
+      - "4566:4566"
+      - "4510-4559:4510-4559"
+    volumes:
+      - "${TEMPDIR:-/tmp/localstack}:/var/lib/localstack"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+
+volumes:
+  postgres_data:

@@ -1,0 +1,11 @@
+C:\Users\dtiDigital\projects\BikeRental\BikeRental.Domain\bin\Debug\net8.0\BikeRental.Domain.deps.json
+C:\Users\dtiDigital\projects\BikeRental\BikeRental.Domain\bin\Debug\net8.0\BikeRental.Domain.dll
+C:\Users\dtiDigital\projects\BikeRental\BikeRental.Domain\bin\Debug\net8.0\BikeRental.Domain.pdb
+C:\Users\dtiDigital\projects\BikeRental\BikeRental.Domain\obj\Debug\net8.0\BikeRental.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dtiDigital\projects\BikeRental\BikeRental.Domain\obj\Debug\net8.0\BikeRental.Domain.AssemblyInfoInputs.cache
+C:\Users\dtiDigital\projects\BikeRental\BikeRental.Domain\obj\Debug\net8.0\BikeRental.Domain.AssemblyInfo.cs
+C:\Users\dtiDigital\projects\BikeRental\BikeRental.Domain\obj\Debug\net8.0\BikeRental.Domain.csproj.CoreCompileInputs.cache
+C:\Users\dtiDigital\projects\BikeRental\BikeRental.Domain\obj\Debug\net8.0\BikeRental.Domain.dll
+C:\Users\dtiDigital\projects\BikeRental\BikeRental.Domain\obj\Debug\net8.0\refint\BikeRental.Domain.dll
+C:\Users\dtiDigital\projects\BikeRental\BikeRental.Domain\obj\Debug\net8.0\BikeRental.Domain.pdb
+C:\Users\dtiDigital\projects\BikeRental\BikeRental.Domain\obj\Debug\net8.0\ref\BikeRental.Domain.dll

@@ -1,0 +1,273 @@
+name: dockercompose9325465121696000784
+services:
+  db:
+    command:
+      - postgres
+      - -c
+      - log_statement=all
+      - -c
+      - timezone=America/Sao_Paulo
+    environment:
+      POSTGRES_DB: bikerental
+      POSTGRES_PASSWORD: bikepassword
+      POSTGRES_USER: bikeuser
+      TZ: America/Sao_Paulo
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -U bikeuser -d bikerental
+      timeout: 5s
+      interval: 5s
+      retries: 5
+    image: postgres:17-alpine
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5432"
+        protocol: tcp
+    volumes:
+      - type: volume
+        source: postgres_data
+        target: /var/lib/postgresql/data
+        volume: {}
+  sns:
+    environment:
+      AWS_ACCESS_KEY_ID: test
+      AWS_DEFAULT_REGION: us-east-1
+      AWS_SECRET_ACCESS_KEY: test
+      DEBUG: "1"
+      DOCKER_HOST: unix:///var/run/docker.sock
+      EDGE_PORT: "4566"
+      LEGACY_SQS_PROVIDER: "0"
+      LOCALSTACK_HOST: 0.0.0.0
+      LS_LOG: debug
+      PERSIST_ALL: "false"
+      PERSISTENCE: "1"
+      SERVICES: sqs,sns
+    image: localstack/localstack:3.4.0
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 4566
+        published: "4566"
+        protocol: tcp
+      - mode: ingress
+        target: 4510
+        published: "4510"
+        protocol: tcp
+      - mode: ingress
+        target: 4511
+        published: "4511"
+        protocol: tcp
+      - mode: ingress
+        target: 4512
+        published: "4512"
+        protocol: tcp
+      - mode: ingress
+        target: 4513
+        published: "4513"
+        protocol: tcp
+      - mode: ingress
+        target: 4514
+        published: "4514"
+        protocol: tcp
+      - mode: ingress
+        target: 4515
+        published: "4515"
+        protocol: tcp
+      - mode: ingress
+        target: 4516
+        published: "4516"
+        protocol: tcp
+      - mode: ingress
+        target: 4517
+        published: "4517"
+        protocol: tcp
+      - mode: ingress
+        target: 4518
+        published: "4518"
+        protocol: tcp
+      - mode: ingress
+        target: 4519
+        published: "4519"
+        protocol: tcp
+      - mode: ingress
+        target: 4520
+        published: "4520"
+        protocol: tcp
+      - mode: ingress
+        target: 4521
+        published: "4521"
+        protocol: tcp
+      - mode: ingress
+        target: 4522
+        published: "4522"
+        protocol: tcp
+      - mode: ingress
+        target: 4523
+        published: "4523"
+        protocol: tcp
+      - mode: ingress
+        target: 4524
+        published: "4524"
+        protocol: tcp
+      - mode: ingress
+        target: 4525
+        published: "4525"
+        protocol: tcp
+      - mode: ingress
+        target: 4526
+        published: "4526"
+        protocol: tcp
+      - mode: ingress
+        target: 4527
+        published: "4527"
+        protocol: tcp
+      - mode: ingress
+        target: 4528
+        published: "4528"
+        protocol: tcp
+      - mode: ingress
+        target: 4529
+        published: "4529"
+        protocol: tcp
+      - mode: ingress
+        target: 4530
+        published: "4530"
+        protocol: tcp
+      - mode: ingress
+        target: 4531
+        published: "4531"
+        protocol: tcp
+      - mode: ingress
+        target: 4532
+        published: "4532"
+        protocol: tcp
+      - mode: ingress
+        target: 4533
+        published: "4533"
+        protocol: tcp
+      - mode: ingress
+        target: 4534
+        published: "4534"
+        protocol: tcp
+      - mode: ingress
+        target: 4535
+        published: "4535"
+        protocol: tcp
+      - mode: ingress
+        target: 4536
+        published: "4536"
+        protocol: tcp
+      - mode: ingress
+        target: 4537
+        published: "4537"
+        protocol: tcp
+      - mode: ingress
+        target: 4538
+        published: "4538"
+        protocol: tcp
+      - mode: ingress
+        target: 4539
+        published: "4539"
+        protocol: tcp
+      - mode: ingress
+        target: 4540
+        published: "4540"
+        protocol: tcp
+      - mode: ingress
+        target: 4541
+        published: "4541"
+        protocol: tcp
+      - mode: ingress
+        target: 4542
+        published: "4542"
+        protocol: tcp
+      - mode: ingress
+        target: 4543
+        published: "4543"
+        protocol: tcp
+      - mode: ingress
+        target: 4544
+        published: "4544"
+        protocol: tcp
+      - mode: ingress
+        target: 4545
+        published: "4545"
+        protocol: tcp
+      - mode: ingress
+        target: 4546
+        published: "4546"
+        protocol: tcp
+      - mode: ingress
+        target: 4547
+        published: "4547"
+        protocol: tcp
+      - mode: ingress
+        target: 4548
+        published: "4548"
+        protocol: tcp
+      - mode: ingress
+        target: 4549
+        published: "4549"
+        protocol: tcp
+      - mode: ingress
+        target: 4550
+        published: "4550"
+        protocol: tcp
+      - mode: ingress
+        target: 4551
+        published: "4551"
+        protocol: tcp
+      - mode: ingress
+        target: 4552
+        published: "4552"
+        protocol: tcp
+      - mode: ingress
+        target: 4553
+        published: "4553"
+        protocol: tcp
+      - mode: ingress
+        target: 4554
+        published: "4554"
+        protocol: tcp
+      - mode: ingress
+        target: 4555
+        published: "4555"
+        protocol: tcp
+      - mode: ingress
+        target: 4556
+        published: "4556"
+        protocol: tcp
+      - mode: ingress
+        target: 4557
+        published: "4557"
+        protocol: tcp
+      - mode: ingress
+        target: 4558
+        published: "4558"
+        protocol: tcp
+      - mode: ingress
+        target: 4559
+        published: "4559"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /tmp/localstack
+        target: /var/lib/localstack
+        bind:
+          create_host_path: true
+      - type: bind
+        source: /var/run/docker.sock
+        target: /var/run/docker.sock
+        bind:
+          create_host_path: true
+networks:
+  default:
+    name: dockercompose9325465121696000784_default
+volumes:
+  postgres_data:
+    name: dockercompose9325465121696000784_postgres_data

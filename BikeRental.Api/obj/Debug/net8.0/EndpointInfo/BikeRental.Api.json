@@ -1,0 +1,649 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Bike Rental API",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/DeliveryPersons": {
+      "post": {
+        "tags": [
+          "DeliveryPersons"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "X-Version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json; ver=1.0": {
+              "schema": {
+                "$ref": "#/components/schemas/DeliveryPersonCreateDto"
+              },
+              "example": {"id":"e9ba47b7-8a6e-4ec9-9c5d-340eea9290c2","name":"João da Silva","tax_id":"12345678901231","birth_date":"1990-08-22T00:00:00","driver_license_number":"12345678901","driver_license_type":"AB","driver_license_image":"iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAFhQGAwJ2GfgAAAABJRU5ErkJggg=="}
+            },
+            "text/json; ver=1.0": {
+              "schema": {
+                "$ref": "#/components/schemas/DeliveryPersonCreateDto"
+              },
+              "example": {"id":"e9ba47b7-8a6e-4ec9-9c5d-340eea9290c2","name":"João da Silva","tax_id":"12345678901231","birth_date":"1990-08-22T00:00:00","driver_license_number":"12345678901","driver_license_type":"AB","driver_license_image":"iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAFhQGAwJ2GfgAAAABJRU5ErkJggg=="}
+            },
+            "application/*+json; ver=1.0": {
+              "schema": {
+                "$ref": "#/components/schemas/DeliveryPersonCreateDto"
+              },
+              "example": {"id":"e9ba47b7-8a6e-4ec9-9c5d-340eea9290c2","name":"João da Silva","tax_id":"12345678901231","birth_date":"1990-08-22T00:00:00","driver_license_number":"12345678901","driver_license_type":"AB","driver_license_image":"iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAFhQGAwJ2GfgAAAABJRU5ErkJggg=="}
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DeliveryPersons/{id}": {
+      "get": {
+        "tags": [
+          "DeliveryPersons"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "X-Version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DeliveryPersons/{id}/driver-license-image": {
+      "post": {
+        "tags": [
+          "DeliveryPersons"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "X-Version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json; ver=1.0": {
+              "schema": {
+                "$ref": "#/components/schemas/DriverLicenseImageDto"
+              },
+              "example": {"driver_license_image":"iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAFhQGAwJ2GfgAAAABJRU5ErkJggg=="}
+            },
+            "text/json; ver=1.0": {
+              "schema": {
+                "$ref": "#/components/schemas/DriverLicenseImageDto"
+              },
+              "example": {"driver_license_image":"iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAFhQGAwJ2GfgAAAABJRU5ErkJggg=="}
+            },
+            "application/*+json; ver=1.0": {
+              "schema": {
+                "$ref": "#/components/schemas/DriverLicenseImageDto"
+              },
+              "example": {"driver_license_image":"iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAFhQGAwJ2GfgAAAABJRU5ErkJggg=="}
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/motorcycles": {
+      "get": {
+        "tags": [
+          "Motorcycles"
+        ],
+        "parameters": [
+          {
+            "name": "licensePlate",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "X-Version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Motorcycles"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "X-Version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json; ver=1.0": {
+              "schema": {
+                "$ref": "#/components/schemas/MotorcycleCreateDto"
+              },
+              "example": {"year":2023,"model":"Honda CB 500","licensePlate":"ABC1D23"}
+            },
+            "text/json; ver=1.0": {
+              "schema": {
+                "$ref": "#/components/schemas/MotorcycleCreateDto"
+              },
+              "example": {"year":2023,"model":"Honda CB 500","licensePlate":"ABC1D23"}
+            },
+            "application/*+json; ver=1.0": {
+              "schema": {
+                "$ref": "#/components/schemas/MotorcycleCreateDto"
+              },
+              "example": {"year":2023,"model":"Honda CB 500","licensePlate":"ABC1D23"}
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/motorcycles/{id}": {
+      "get": {
+        "tags": [
+          "Motorcycles"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "X-Version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Motorcycles"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "X-Version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json; ver=1.0": {
+              "schema": {
+                "$ref": "#/components/schemas/MotorcycleUpdateDto"
+              }
+            },
+            "text/json; ver=1.0": {
+              "schema": {
+                "$ref": "#/components/schemas/MotorcycleUpdateDto"
+              }
+            },
+            "application/*+json; ver=1.0": {
+              "schema": {
+                "$ref": "#/components/schemas/MotorcycleUpdateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Motorcycles"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "X-Version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Rentals": {
+      "post": {
+        "tags": [
+          "Rentals"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "X-Version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json; ver=1.0": {
+              "schema": {
+                "$ref": "#/components/schemas/RentalDto"
+              },
+              "example": {"id":"5dd284d4-4d8f-4120-89b1-4a8079ec948b","daily_rate":30.00,"delivery_person_id":"123e4567-e89b-12d3-a456-426614174000","motorcycle_id":"a1b2c3d4-1234-5678-9012-abcdef123456","start_date":"2025-04-26T16:54:22.2918891Z","end_date":"2025-05-03T16:54:22.2918915Z","expected_end_date":"2025-05-03T16:54:22.2918916Z","return_date":null,"plan":7}
+            },
+            "text/json; ver=1.0": {
+              "schema": {
+                "$ref": "#/components/schemas/RentalDto"
+              },
+              "example": {"id":"5dd284d4-4d8f-4120-89b1-4a8079ec948b","daily_rate":30.00,"delivery_person_id":"123e4567-e89b-12d3-a456-426614174000","motorcycle_id":"a1b2c3d4-1234-5678-9012-abcdef123456","start_date":"2025-04-26T16:54:22.2918891Z","end_date":"2025-05-03T16:54:22.2918915Z","expected_end_date":"2025-05-03T16:54:22.2918916Z","return_date":null,"plan":7}
+            },
+            "application/*+json; ver=1.0": {
+              "schema": {
+                "$ref": "#/components/schemas/RentalDto"
+              },
+              "example": {"id":"5dd284d4-4d8f-4120-89b1-4a8079ec948b","daily_rate":30.00,"delivery_person_id":"123e4567-e89b-12d3-a456-426614174000","motorcycle_id":"a1b2c3d4-1234-5678-9012-abcdef123456","start_date":"2025-04-26T16:54:22.2918891Z","end_date":"2025-05-03T16:54:22.2918915Z","expected_end_date":"2025-05-03T16:54:22.2918916Z","return_date":null,"plan":7}
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Rentals/{id}": {
+      "get": {
+        "tags": [
+          "Rentals"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "X-Version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Rentals/{id}/return": {
+      "put": {
+        "tags": [
+          "Rentals"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "X-Version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json; ver=1.0": {
+              "schema": {
+                "$ref": "#/components/schemas/RentalReturnDto"
+              },
+              "example": {"return_date":"2025-05-02T16:54:22.3350676Z"}
+            },
+            "text/json; ver=1.0": {
+              "schema": {
+                "$ref": "#/components/schemas/RentalReturnDto"
+              },
+              "example": {"return_date":"2025-05-02T16:54:22.3350676Z"}
+            },
+            "application/*+json; ver=1.0": {
+              "schema": {
+                "$ref": "#/components/schemas/RentalReturnDto"
+              },
+              "example": {"return_date":"2025-05-02T16:54:22.3350676Z"}
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "DeliveryPersonCreateDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "tax_id": {
+            "type": "string",
+            "nullable": true
+          },
+          "birth_date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "driver_license_number": {
+            "type": "string",
+            "nullable": true
+          },
+          "driver_license_type": {
+            "type": "string",
+            "nullable": true
+          },
+          "driver_license_image": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DriverLicenseImageDto": {
+        "type": "object",
+        "properties": {
+          "driver_license_image": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MotorcycleCreateDto": {
+        "type": "object",
+        "properties": {
+          "year": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "model": {
+            "type": "string",
+            "nullable": true
+          },
+          "licensePlate": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MotorcycleUpdateDto": {
+        "type": "object",
+        "properties": {
+          "licensePlate": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RentalDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "daily_rate": {
+            "type": "number",
+            "format": "double"
+          },
+          "delivery_person_id": {
+            "type": "string",
+            "nullable": true
+          },
+          "motorcycle_id": {
+            "type": "string",
+            "nullable": true
+          },
+          "start_date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "end_date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "expected_end_date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "return_date": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "plan": {
+            "$ref": "#/components/schemas/RentalPlan"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RentalPlan": {
+        "enum": [
+          7,
+          15,
+          30,
+          45,
+          50
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "RentalReturnDto": {
+        "type": "object",
+        "properties": {
+          "return_date": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

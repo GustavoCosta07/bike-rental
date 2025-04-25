@@ -1,0 +1,1023 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dtiDigital\\projects\\BikeRental\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.api\\controllers\\rentalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|solutionrelative:bikerental.api\\controllers\\rentalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.api\\controllers\\motorcyclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|solutionrelative:bikerental.api\\controllers\\motorcyclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.application\\services\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|solutionrelative:bikerental.application\\services\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.application\\services\\motorcycleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|solutionrelative:bikerental.application\\services\\motorcycleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.application\\services\\deliverypersonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|solutionrelative:bikerental.application\\services\\deliverypersonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.application\\services\\ifilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|solutionrelative:bikerental.application\\services\\ifilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|solutionrelative:bikerental.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.api\\swaggerexamples\\rentalreturnresultdtoexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|solutionrelative:bikerental.api\\swaggerexamples\\rentalreturnresultdtoexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.application\\models\\rentalreturnresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|solutionrelative:bikerental.application\\models\\rentalreturnresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.api\\swaggerexamples\\driverlicenseimagedtoexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|solutionrelative:bikerental.api\\swaggerexamples\\driverlicenseimagedtoexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.api\\swaggerexamples\\rentaldtoexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|solutionrelative:bikerental.api\\swaggerexamples\\rentaldtoexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}|BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.infrastructure\\consumers\\motorcyclenotificationconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}|BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj|solutionrelative:bikerental.infrastructure\\consumers\\motorcyclenotificationconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.domain\\entities\\orderdelivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|solutionrelative:bikerental.domain\\entities\\orderdelivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.domain\\entities\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|solutionrelative:bikerental.domain\\entities\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.domain\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|solutionrelative:bikerental.domain\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}|BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.infrastructure\\data\\bikerentaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}|BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj|solutionrelative:bikerental.infrastructure\\data\\bikerentaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}|BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.infrastructure\\repositories\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}|BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj|solutionrelative:bikerental.infrastructure\\repositories\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.application\\models\\rentaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|solutionrelative:bikerental.application\\models\\rentaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.api\\swaggerexamples\\deliverypersoncreatedtoexample .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|solutionrelative:bikerental.api\\swaggerexamples\\deliverypersoncreatedtoexample .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.application\\models\\deliverypersondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|solutionrelative:bikerental.application\\models\\deliverypersondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.application\\applicationextensions .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|solutionrelative:bikerental.application\\applicationextensions .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.application\\validators\\deliverypersoncreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|solutionrelative:bikerental.application\\validators\\deliverypersoncreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.api\\controllers\\deliverypersonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|solutionrelative:bikerental.api\\controllers\\deliverypersonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}|BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}|BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj|solutionrelative:bikerental.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.domain\\events\\motorcycleregisteredevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|solutionrelative:bikerental.domain\\events\\motorcycleregisteredevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.api\\swaggerexamples\\rentalreturndtoexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|solutionrelative:bikerental.api\\swaggerexamples\\rentalreturndtoexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}|BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.infrastructure\\services\\localfilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}|BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj|solutionrelative:bikerental.infrastructure\\services\\localfilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}|BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.infrastructure\\services\\deliveryprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}|BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj|solutionrelative:bikerental.infrastructure\\services\\deliveryprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}|BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.infrastructure\\repositories\\motorcyclerepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}|BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj|solutionrelative:bikerental.infrastructure\\repositories\\motorcyclerepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}|BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.infrastructure\\repositories\\deliverypersonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}|BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj|solutionrelative:bikerental.infrastructure\\repositories\\deliverypersonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}|BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.infrastructure\\data\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}|BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj|solutionrelative:bikerental.infrastructure\\data\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}|BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.infrastructure\\bikerental.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}|BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj|solutionrelative:bikerental.infrastructure\\bikerental.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.domain\\rentalplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|solutionrelative:bikerental.domain\\rentalplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.domain\\licensetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|solutionrelative:bikerental.domain\\licensetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.domain\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|solutionrelative:bikerental.domain\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.domain\\repositories\\irentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|solutionrelative:bikerental.domain\\repositories\\irentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.domain\\repositories\\imotorcyclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|solutionrelative:bikerental.domain\\repositories\\imotorcyclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.domain\\repositories\\ideliverypersonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|solutionrelative:bikerental.domain\\repositories\\ideliverypersonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.domain\\entities\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|solutionrelative:bikerental.domain\\entities\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.domain\\entities\\deliveryperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}|BikeRental.Domain\\BikeRental.Domain.csproj|solutionrelative:bikerental.domain\\entities\\deliveryperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.application\\validators\\rentalreturndtovalidator .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|solutionrelative:bikerental.application\\validators\\rentalreturndtovalidator .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.application\\validators\\rentalcreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|solutionrelative:bikerental.application\\validators\\rentalcreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.application\\validators\\motorcyclecreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|solutionrelative:bikerental.application\\validators\\motorcyclecreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.application\\validators\\driverlicenseimagedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|solutionrelative:bikerental.application\\validators\\driverlicenseimagedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.application\\models\\motorcycledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|solutionrelative:bikerental.application\\models\\motorcycledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.application\\models\\errorresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|solutionrelative:bikerental.application\\models\\errorresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.application\\mapping\\rentalmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|solutionrelative:bikerental.application\\mapping\\rentalmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.application\\mapping\\motorcyclemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|solutionrelative:bikerental.application\\mapping\\motorcyclemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.application\\mapping\\deliverypersonmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4960D0-14F9-46EC-8532-F0644E90B758}|BikeRental.Application\\BikeRental.Application.csproj|solutionrelative:bikerental.application\\mapping\\deliverypersonmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.api\\swaggerexamples\\motorcyclecreatedtoexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|solutionrelative:bikerental.api\\swaggerexamples\\motorcyclecreatedtoexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.api\\healthchecks\\filestoragehealthcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|solutionrelative:bikerental.api\\healthchecks\\filestoragehealthcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.api\\filters\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|solutionrelative:bikerental.api\\filters\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.api\\extensions\\authextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|solutionrelative:bikerental.api\\extensions\\authextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.api\\extensions\\apiversioningextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|solutionrelative:bikerental.api\\extensions\\apiversioningextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|solutionrelative:bikerental.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\dtidigital\\projects\\bikerental\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|c:\\users\\dtidigital\\projects\\bikerental\\bikerental.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6C4B32DA-F673-4733-A186-87DD4875775C}|BikeRental.Api\\BikeRental.Api.csproj|solutionrelative:bikerental.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\dtidigital\\projects\\bikerental\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\dtidigital\\projects\\bikerental\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RentalReturnResultDtoExample.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\SwaggerExamples\\RentalReturnResultDtoExample.cs",
+              "RelativeDocumentMoniker": "BikeRental.Api\\SwaggerExamples\\RentalReturnResultDtoExample.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\SwaggerExamples\\RentalReturnResultDtoExample.cs",
+              "RelativeToolTip": "BikeRental.Api\\SwaggerExamples\\RentalReturnResultDtoExample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T16:46:35.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RentalReturnResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Models\\RentalReturnResultDto.cs",
+              "RelativeDocumentMoniker": "BikeRental.Application\\Models\\RentalReturnResultDto.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Models\\RentalReturnResultDto.cs",
+              "RelativeToolTip": "BikeRental.Application\\Models\\RentalReturnResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T16:44:49.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RentalService.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Services\\RentalService.cs",
+              "RelativeDocumentMoniker": "BikeRental.Application\\Services\\RentalService.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Services\\RentalService.cs",
+              "RelativeToolTip": "BikeRental.Application\\Services\\RentalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T14:17:40.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\Program.cs",
+              "RelativeDocumentMoniker": "BikeRental.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\Program.cs",
+              "RelativeToolTip": "BikeRental.Api\\Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAiwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T21:49:32.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RentalsController.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\Controllers\\RentalsController.cs",
+              "RelativeDocumentMoniker": "BikeRental.Api\\Controllers\\RentalsController.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\Controllers\\RentalsController.cs",
+              "RelativeToolTip": "BikeRental.Api\\Controllers\\RentalsController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T14:16:49.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IFileStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Services\\IFileStorageService.cs",
+              "RelativeDocumentMoniker": "BikeRental.Application\\Services\\IFileStorageService.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Services\\IFileStorageService.cs",
+              "RelativeToolTip": "BikeRental.Application\\Services\\IFileStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:26:32.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeliveryPersonService.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Services\\DeliveryPersonService.cs",
+              "RelativeDocumentMoniker": "BikeRental.Application\\Services\\DeliveryPersonService.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Services\\DeliveryPersonService.cs",
+              "RelativeToolTip": "BikeRental.Application\\Services\\DeliveryPersonService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:50:15.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MotorcycleService.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Services\\MotorcycleService.cs",
+              "RelativeDocumentMoniker": "BikeRental.Application\\Services\\MotorcycleService.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Services\\MotorcycleService.cs",
+              "RelativeToolTip": "BikeRental.Application\\Services\\MotorcycleService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAzwEcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T02:55:59.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MotorcyclesController.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\Controllers\\MotorcyclesController.cs",
+              "RelativeDocumentMoniker": "BikeRental.Api\\Controllers\\MotorcyclesController.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\Controllers\\MotorcyclesController.cs",
+              "RelativeToolTip": "BikeRental.Api\\Controllers\\MotorcyclesController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAywBgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T21:41:43.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RentalDtoExample.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\SwaggerExamples\\RentalDtoExample.cs",
+              "RelativeDocumentMoniker": "BikeRental.Api\\SwaggerExamples\\RentalDtoExample.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\SwaggerExamples\\RentalDtoExample.cs",
+              "RelativeToolTip": "BikeRental.Api\\SwaggerExamples\\RentalDtoExample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T16:43:03.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MotorcycleNotificationConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Infrastructure\\Consumers\\MotorcycleNotificationConsumer.cs",
+              "RelativeDocumentMoniker": "BikeRental.Infrastructure\\Consumers\\MotorcycleNotificationConsumer.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Infrastructure\\Consumers\\MotorcycleNotificationConsumer.cs",
+              "RelativeToolTip": "BikeRental.Infrastructure\\Consumers\\MotorcycleNotificationConsumer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T22:05:09.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderDelivery.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\Entities\\OrderDelivery.cs",
+              "RelativeDocumentMoniker": "BikeRental.Domain\\Entities\\OrderDelivery.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\Entities\\OrderDelivery.cs",
+              "RelativeToolTip": "BikeRental.Domain\\Entities\\OrderDelivery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:10:37.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\Entities\\Notification.cs",
+              "RelativeDocumentMoniker": "BikeRental.Domain\\Entities\\Notification.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\Entities\\Notification.cs",
+              "RelativeToolTip": "BikeRental.Domain\\Entities\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:10:28.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RentalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Infrastructure\\Repositories\\RentalRepository.cs",
+              "RelativeDocumentMoniker": "BikeRental.Infrastructure\\Repositories\\RentalRepository.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Infrastructure\\Repositories\\RentalRepository.cs",
+              "RelativeToolTip": "BikeRental.Infrastructure\\Repositories\\RentalRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T14:28:23.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DriverLicenseImageDtoExample.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\SwaggerExamples\\DriverLicenseImageDtoExample.cs",
+              "RelativeDocumentMoniker": "BikeRental.Api\\SwaggerExamples\\DriverLicenseImageDtoExample.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\SwaggerExamples\\DriverLicenseImageDtoExample.cs",
+              "RelativeToolTip": "BikeRental.Api\\SwaggerExamples\\DriverLicenseImageDtoExample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T15:21:12.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BikeRentalDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Infrastructure\\Data\\BikeRentalDbContext.cs",
+              "RelativeDocumentMoniker": "BikeRental.Infrastructure\\Data\\BikeRentalDbContext.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Infrastructure\\Data\\BikeRentalDbContext.cs",
+              "RelativeToolTip": "BikeRental.Infrastructure\\Data\\BikeRentalDbContext.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAwwK4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T22:05:08.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RentalDto.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Models\\RentalDto.cs",
+              "RelativeDocumentMoniker": "BikeRental.Application\\Models\\RentalDto.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Models\\RentalDto.cs",
+              "RelativeToolTip": "BikeRental.Application\\Models\\RentalDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:01:47.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Rental.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\Entities\\Rental.cs",
+              "RelativeDocumentMoniker": "BikeRental.Domain\\Entities\\Rental.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\Entities\\Rental.cs",
+              "RelativeToolTip": "BikeRental.Domain\\Entities\\Rental.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:10:45.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DeliveryPersonDto.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Models\\DeliveryPersonDto.cs",
+              "RelativeDocumentMoniker": "BikeRental.Application\\Models\\DeliveryPersonDto.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Models\\DeliveryPersonDto.cs",
+              "RelativeToolTip": "BikeRental.Application\\Models\\DeliveryPersonDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:54:24.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationExtensions .cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\ApplicationExtensions .cs",
+              "RelativeDocumentMoniker": "BikeRental.Application\\ApplicationExtensions .cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\ApplicationExtensions .cs",
+              "RelativeToolTip": "BikeRental.Application\\ApplicationExtensions .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T02:54:46.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DeliveryPersonCreateDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Validators\\DeliveryPersonCreateDtoValidator.cs",
+              "RelativeDocumentMoniker": "BikeRental.Application\\Validators\\DeliveryPersonCreateDtoValidator.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Validators\\DeliveryPersonCreateDtoValidator.cs",
+              "RelativeToolTip": "BikeRental.Application\\Validators\\DeliveryPersonCreateDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:58:51.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DeliveryPersonCreateDtoExample .cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\SwaggerExamples\\DeliveryPersonCreateDtoExample .cs",
+              "RelativeDocumentMoniker": "BikeRental.Api\\SwaggerExamples\\DeliveryPersonCreateDtoExample .cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\SwaggerExamples\\DeliveryPersonCreateDtoExample .cs",
+              "RelativeToolTip": "BikeRental.Api\\SwaggerExamples\\DeliveryPersonCreateDtoExample .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:56:46.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DeliveryPersonsController.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\Controllers\\DeliveryPersonsController.cs",
+              "RelativeDocumentMoniker": "BikeRental.Api\\Controllers\\DeliveryPersonsController.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\Controllers\\DeliveryPersonsController.cs",
+              "RelativeToolTip": "BikeRental.Api\\Controllers\\DeliveryPersonsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:14:57.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "BikeRental.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "BikeRental.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAUwFIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T22:03:38.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MotorcycleRegisteredEvent.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\Events\\MotorcycleRegisteredEvent.cs",
+              "RelativeDocumentMoniker": "BikeRental.Domain\\Events\\MotorcycleRegisteredEvent.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\Events\\MotorcycleRegisteredEvent.cs",
+              "RelativeToolTip": "BikeRental.Domain\\Events\\MotorcycleRegisteredEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T04:13:45.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DeliveryPersonRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Infrastructure\\Repositories\\DeliveryPersonRepository.cs",
+              "RelativeDocumentMoniker": "BikeRental.Infrastructure\\Repositories\\DeliveryPersonRepository.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Infrastructure\\Repositories\\DeliveryPersonRepository.cs",
+              "RelativeToolTip": "BikeRental.Infrastructure\\Repositories\\DeliveryPersonRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:16:44.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MotorcycleRepository .cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Infrastructure\\Repositories\\MotorcycleRepository .cs",
+              "RelativeDocumentMoniker": "BikeRental.Infrastructure\\Repositories\\MotorcycleRepository .cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Infrastructure\\Repositories\\MotorcycleRepository .cs",
+              "RelativeToolTip": "BikeRental.Infrastructure\\Repositories\\MotorcycleRepository .cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAkwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T21:47:17.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RentalReturnDtoExample.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\SwaggerExamples\\RentalReturnDtoExample.cs",
+              "RelativeDocumentMoniker": "BikeRental.Api\\SwaggerExamples\\RentalReturnDtoExample.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\SwaggerExamples\\RentalReturnDtoExample.cs",
+              "RelativeToolTip": "BikeRental.Api\\SwaggerExamples\\RentalReturnDtoExample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T15:22:27.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DesignTimeDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Infrastructure\\Data\\DesignTimeDbContextFactory.cs",
+              "RelativeDocumentMoniker": "BikeRental.Infrastructure\\Data\\DesignTimeDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Infrastructure\\Data\\DesignTimeDbContextFactory.cs",
+              "RelativeToolTip": "BikeRental.Infrastructure\\Data\\DesignTimeDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T13:25:24.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DeliveryProcessingService.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Infrastructure\\Services\\DeliveryProcessingService.cs",
+              "RelativeDocumentMoniker": "BikeRental.Infrastructure\\Services\\DeliveryProcessingService.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Infrastructure\\Services\\DeliveryProcessingService.cs",
+              "RelativeToolTip": "BikeRental.Infrastructure\\Services\\DeliveryProcessingService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAUwDgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T22:05:17.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LocalFileStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Infrastructure\\Services\\LocalFileStorageService.cs",
+              "RelativeDocumentMoniker": "BikeRental.Infrastructure\\Services\\LocalFileStorageService.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Infrastructure\\Services\\LocalFileStorageService.cs",
+              "RelativeToolTip": "BikeRental.Infrastructure\\Services\\LocalFileStorageService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvzIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T04:44:49.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BikeRental.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj",
+              "RelativeToolTip": "BikeRental.Infrastructure\\BikeRental.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-25T13:11:00.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RentalPlan.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\RentalPlan.cs",
+              "RelativeDocumentMoniker": "BikeRental.Domain\\RentalPlan.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\RentalPlan.cs",
+              "RelativeToolTip": "BikeRental.Domain\\RentalPlan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T04:40:21.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LicenseType.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\LicenseType.cs",
+              "RelativeDocumentMoniker": "BikeRental.Domain\\LicenseType.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\LicenseType.cs",
+              "RelativeToolTip": "BikeRental.Domain\\LicenseType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T04:40:16.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "BikeRental.Domain\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\BaseEntity.cs",
+              "RelativeToolTip": "BikeRental.Domain\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T04:40:28.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IRentalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\Repositories\\IRentalRepository.cs",
+              "RelativeDocumentMoniker": "BikeRental.Domain\\Repositories\\IRentalRepository.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\Repositories\\IRentalRepository.cs",
+              "RelativeToolTip": "BikeRental.Domain\\Repositories\\IRentalRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T14:20:14.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IMotorcycleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\Repositories\\IMotorcycleRepository.cs",
+              "RelativeDocumentMoniker": "BikeRental.Domain\\Repositories\\IMotorcycleRepository.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\Repositories\\IMotorcycleRepository.cs",
+              "RelativeToolTip": "BikeRental.Domain\\Repositories\\IMotorcycleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T03:02:34.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IDeliveryPersonRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\Repositories\\IDeliveryPersonRepository.cs",
+              "RelativeDocumentMoniker": "BikeRental.Domain\\Repositories\\IDeliveryPersonRepository.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\Repositories\\IDeliveryPersonRepository.cs",
+              "RelativeToolTip": "BikeRental.Domain\\Repositories\\IDeliveryPersonRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:07:38.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Motorcycle.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\Entities\\Motorcycle.cs",
+              "RelativeDocumentMoniker": "BikeRental.Domain\\Entities\\Motorcycle.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\Entities\\Motorcycle.cs",
+              "RelativeToolTip": "BikeRental.Domain\\Entities\\Motorcycle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:10:19.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DeliveryPerson.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\Entities\\DeliveryPerson.cs",
+              "RelativeDocumentMoniker": "BikeRental.Domain\\Entities\\DeliveryPerson.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Domain\\Entities\\DeliveryPerson.cs",
+              "RelativeToolTip": "BikeRental.Domain\\Entities\\DeliveryPerson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:10:13.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "RentalReturnDtoValidator .cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Validators\\RentalReturnDtoValidator .cs",
+              "RelativeDocumentMoniker": "BikeRental.Application\\Validators\\RentalReturnDtoValidator .cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Validators\\RentalReturnDtoValidator .cs",
+              "RelativeToolTip": "BikeRental.Application\\Validators\\RentalReturnDtoValidator .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T15:02:42.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RentalCreateDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Validators\\RentalCreateDtoValidator.cs",
+              "RelativeDocumentMoniker": "BikeRental.Application\\Validators\\RentalCreateDtoValidator.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Validators\\RentalCreateDtoValidator.cs",
+              "RelativeToolTip": "BikeRental.Application\\Validators\\RentalCreateDtoValidator.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvyQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:01:02.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "MotorcycleCreateDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Validators\\MotorcycleCreateDtoValidator.cs",
+              "RelativeDocumentMoniker": "BikeRental.Application\\Validators\\MotorcycleCreateDtoValidator.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Validators\\MotorcycleCreateDtoValidator.cs",
+              "RelativeToolTip": "BikeRental.Application\\Validators\\MotorcycleCreateDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T03:15:15.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "DriverLicenseImageDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Validators\\DriverLicenseImageDtoValidator.cs",
+              "RelativeDocumentMoniker": "BikeRental.Application\\Validators\\DriverLicenseImageDtoValidator.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Validators\\DriverLicenseImageDtoValidator.cs",
+              "RelativeToolTip": "BikeRental.Application\\Validators\\DriverLicenseImageDtoValidator.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:00:15.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "MotorcycleDto.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Models\\MotorcycleDto.cs",
+              "RelativeDocumentMoniker": "BikeRental.Application\\Models\\MotorcycleDto.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Models\\MotorcycleDto.cs",
+              "RelativeToolTip": "BikeRental.Application\\Models\\MotorcycleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T03:24:20.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ErrorResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Models\\ErrorResponseDto.cs",
+              "RelativeDocumentMoniker": "BikeRental.Application\\Models\\ErrorResponseDto.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Models\\ErrorResponseDto.cs",
+              "RelativeToolTip": "BikeRental.Application\\Models\\ErrorResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:56:06.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "RentalMapping.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Mapping\\RentalMapping.cs",
+              "RelativeDocumentMoniker": "BikeRental.Application\\Mapping\\RentalMapping.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Mapping\\RentalMapping.cs",
+              "RelativeToolTip": "BikeRental.Application\\Mapping\\RentalMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T14:20:52.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "MotorcycleMapping.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Mapping\\MotorcycleMapping.cs",
+              "RelativeDocumentMoniker": "BikeRental.Application\\Mapping\\MotorcycleMapping.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Mapping\\MotorcycleMapping.cs",
+              "RelativeToolTip": "BikeRental.Application\\Mapping\\MotorcycleMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T03:21:51.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "DeliveryPersonMapping.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Mapping\\DeliveryPersonMapping.cs",
+              "RelativeDocumentMoniker": "BikeRental.Application\\Mapping\\DeliveryPersonMapping.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Application\\Mapping\\DeliveryPersonMapping.cs",
+              "RelativeToolTip": "BikeRental.Application\\Mapping\\DeliveryPersonMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:13:14.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "MotorcycleCreateDtoExample.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\SwaggerExamples\\MotorcycleCreateDtoExample.cs",
+              "RelativeDocumentMoniker": "BikeRental.Api\\SwaggerExamples\\MotorcycleCreateDtoExample.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\SwaggerExamples\\MotorcycleCreateDtoExample.cs",
+              "RelativeToolTip": "BikeRental.Api\\SwaggerExamples\\MotorcycleCreateDtoExample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T04:31:52.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "FileStorageHealthCheck.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\HealthChecks\\FileStorageHealthCheck.cs",
+              "RelativeDocumentMoniker": "BikeRental.Api\\HealthChecks\\FileStorageHealthCheck.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\HealthChecks\\FileStorageHealthCheck.cs",
+              "RelativeToolTip": "BikeRental.Api\\HealthChecks\\FileStorageHealthCheck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T03:07:52.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ValidationFilter.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\Filters\\ValidationFilter.cs",
+              "RelativeDocumentMoniker": "BikeRental.Api\\Filters\\ValidationFilter.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\Filters\\ValidationFilter.cs",
+              "RelativeToolTip": "BikeRental.Api\\Filters\\ValidationFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T03:59:06.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AuthExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\Extensions\\AuthExtensions.cs",
+              "RelativeDocumentMoniker": "BikeRental.Api\\Extensions\\AuthExtensions.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\Extensions\\AuthExtensions.cs",
+              "RelativeToolTip": "BikeRental.Api\\Extensions\\AuthExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T21:41:39.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ApiVersioningExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\Extensions\\ApiVersioningExtensions.cs",
+              "RelativeDocumentMoniker": "BikeRental.Api\\Extensions\\ApiVersioningExtensions.cs",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\Extensions\\ApiVersioningExtensions.cs",
+              "RelativeToolTip": "BikeRental.Api\\Extensions\\ApiVersioningExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T15:08:59.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "BikeRental.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\appsettings.json",
+              "RelativeToolTip": "BikeRental.Api\\appsettings.json",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-24T21:48:50.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "BikeRental.Api\\Dockerfile",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\BikeRental.Api\\Dockerfile",
+              "RelativeToolTip": "BikeRental.Api\\Dockerfile",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-25T03:55:39.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "docker-compose",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-25T02:09:52.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-25T01:25:53.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\dtiDigital\\projects\\BikeRental\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\dtiDigital\\projects\\BikeRental\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-04-24T21:49:24.858Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

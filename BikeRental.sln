@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeRental.Api", "BikeRental.Api\BikeRental.Api.csproj", "{6C4B32DA-F673-4733-A186-87DD4875775C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeRental.Application", "BikeRental.Application\BikeRental.Application.csproj", "{1F4960D0-14F9-46EC-8532-F0644E90B758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeRental.Domain", "BikeRental.Domain\BikeRental.Domain.csproj", "{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeRental.Infrastructure", "BikeRental.Infrastructure\BikeRental.Infrastructure.csproj", "{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeRental.Tests", "BikeRental.Tests\BikeRental.Tests.csproj", "{ACC5FDFE-4279-4012-A2D6-8D8BC36546D3}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{81DDED9D-158B-E303-5F62-77A2896D2A5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C4B32DA-F673-4733-A186-87DD4875775C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C4B32DA-F673-4733-A186-87DD4875775C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C4B32DA-F673-4733-A186-87DD4875775C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C4B32DA-F673-4733-A186-87DD4875775C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F4960D0-14F9-46EC-8532-F0644E90B758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F4960D0-14F9-46EC-8532-F0644E90B758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F4960D0-14F9-46EC-8532-F0644E90B758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F4960D0-14F9-46EC-8532-F0644E90B758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E8DF9C6-9487-40F3-A224-ABD0013DA8BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88659A43-9202-4A35-8B1C-52E0D4F0B9A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACC5FDFE-4279-4012-A2D6-8D8BC36546D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC5FDFE-4279-4012-A2D6-8D8BC36546D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC5FDFE-4279-4012-A2D6-8D8BC36546D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC5FDFE-4279-4012-A2D6-8D8BC36546D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30A0403C-8B94-42D0-B676-E50076DB357C}
+	EndGlobalSection
+EndGlobal
